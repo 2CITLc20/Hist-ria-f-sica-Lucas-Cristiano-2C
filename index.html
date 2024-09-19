@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/feiracienciasx.jpg" alt="">
+            <p>João, um aluno do segundo ano do ensino médio, é desafiado a participar da feira de ciencias da escola, ele está animado, mas ele precisa escolher um tema.</p>
+            <button class="btn-proximo" data-proximo="1">Física</button>
+            <button class="btn-proximo" data-proximo="2">Matemática</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>João decide trabalhar com Física. Ele escolhe estudar o movimento de objetos em queda livre. Seu objetivo é calcular o tempo de queda de uma esfera de diferentes alturas, mas ele precisa decidir como conduzir o experimento.</p>
+            <button class="btn-proximo" data-proximo="3">Realizar o experimento ao ar livre, ignorando a resistência do ar.</button>
+            <button class="btn-proximo" data-proximo="4">Realizar o experimento em um laboratório controlado, considerando a resistência do ar.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>João faz o experimento ao ar livre, mas os resultados não correspondem aos cálculos teóricos, provavelmente devido à resistência do ar. Agora ele tem que decidir o que fazer.</p>
+            <button class="btn-proximo" data-proximo="5">Recalcular incluindo a resistência do ar.</button>
+            <button class="btn-proximo" data-proximo="6">-  Continuar sem considerar a resistência do ar e simplificar os resultados.
+            </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>João decide recalcular os resultados com a resistência do ar. Isso melhora a precisão, mas ele precisa rever seus cálculos matemáticos para adequá-los às novas variáveis. Com os novos dados em mãos, João agora deve decidir como apresentar sua pesquisa.</p>
+            <button class="btn-proximo" data-proximo="7"></button>Criar uma apresentação detalhada com gráficos e explicações teóricas.</div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/a-fisica-uma-ciencia-basica-que-explica-as-diversas-formas-interacao-entre-materia-energia-5bf84b0fbba71.webp" alt="imagem escolhendo o caminho mais dificil">
+            <p>No laboratório, João consegue controlar variáveis como a resistência do ar, obtendo resultados precisos. Agora, ele precisa decidir o próximo passo.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>João decide aprofundar a análise dos dados, criando gráficos detalhados que explicam cada variável envolvida no experimento. Ele deve escolher como apresentar essas informações.</p>
+            <button class="btn-proximo" data-proximo="7">Explicar os gráficos de maneira simples para que todos entendam.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>João opta por focar na aplicação prática do experimento, simplificando a análise. Ele quer mostrar como seus resultados podem ser aplicados no mundo real. Agora, ele deve decidir como fazer sua apresentação.</p>
+            <button class="btn-proximo" data-proximo="8"> Fazer uma demonstração ao vivo na feira de ciências.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>João apresenta seu experimento e todos amam, mas algumas pessoas acham chato e entediante</p>
+            <button class="btn-proximo" data-proximo="9">Seguir firme e ficar feliz pelo resultado</button>
+            <button class="btn-proximo" data-proximo="10">Ligar para o que os que não gostaram estão falanado e ficar triste</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>João decide se orgulhar das suas conquistas e ficar feliz</p>
+            <button class="btn-proximo" data-proximo="7">Chegar em casa e comemorar com os pais</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Onde comemorar?</p>
+            <button class="btn-proximo" data-proximo="11">pais falam "MacDonald's?"</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>João pula de alegria porque é seu lugar favorito.</p>
+            <button class="btn-proximo" data-proximo="12">Ir ao mac</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/imagem-ilustrativa-de-unidade-do-mcdonalds-1603902210511_v2_450x337.jpg" alt="encontrando o maravilhoso MacDonald ">
+            <p>entrar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Esperar o lanche</p>
+            <button class="btn-proximo" data-proximo="11">Comer e ir embora contente</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
